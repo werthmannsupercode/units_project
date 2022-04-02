@@ -19,21 +19,20 @@ SECTION1
 
 #section1 {
     background-color: #333;
-    height: 100vh;
-    width: 100vw;
 }
 
 section header {
     color: #ccc;
     font-family: 'Maven Pro', sans-serif;
     font-size: 2.4rem;
-    padding-left: 30px;
+    padding-left: 2vw;
+    padding-top: 2vh;
     letter-spacing: 3px;
 }
 
 section main {
     background-image: linear-gradient(to bottom left, #8507e1, #3dc8d5);
-    margin: 17.5vh 39vw;
+    margin: 20vh 38vw;
     border-radius: 5px;
     color: #fff;
 }
@@ -58,8 +57,8 @@ section main p:nth-of-type(2) {
 
 section footer {
     text-align: right;
-    padding-right: 30px;
-    margin-bottom: 30px;
+    padding-right: 2vw;
+    padding-bottom: 4vh;
 }
 
 section footer nav ul {
